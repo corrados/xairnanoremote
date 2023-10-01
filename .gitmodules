@@ -1,0 +1,6 @@
+[submodule "X32-Behringer"]
+	path = X32-Behringer
+	url = https://github.com/pmaillot/X32-Behringer.git
+[submodule "python-x32"]
+	path = python-x32
+	url = https://github.com/corrados/python-x32.git
