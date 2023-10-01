@@ -17,10 +17,9 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt-get install git python3-pip
 python3 -m pip install alsa-midi
-git clone https://github.com/corrados/mypitools.git
-cd mypitools
+git clone https://github.com/corrados/xairnanoremote.git
+cd xairnanoremote
 git submodule update --init
-cd projects/xairremote
 python3 xairremote.py
 ```
 
@@ -28,7 +27,7 @@ Optionally, insert the following line in rc.local to auto start the script on bo
 Raspberry Pi:
 
 ```
-su pi -c 'cd /home/pi/mypitools/projects/xairremote;sleep 15;python3 xairremote.py' &
+su pi -c 'cd /home/pi/xairnanoremote;sleep 15;python3 xairremote.py' &
 ```
 
 
